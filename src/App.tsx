@@ -1,16 +1,24 @@
+// src/App.tsx
+import { BrowserRouter as Router, Routes, Route } from "react-router";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact"
+import { JSX } from "react";
 
-function App() {
-  // const [count, setCount] = useState(0)
-
+function App(): JSX.Element {
   return (
-    <>
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-       <h1 className="text-3xl font-bold text-gray-800" >
-        Raju Courier under maintenance, please check back later.
-    </h1>
-    </div>
-    </>
-  )
+    <Router>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+    </Router>
+  );
 }
 
-export default App
+export default App;
