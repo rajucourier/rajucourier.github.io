@@ -25,7 +25,7 @@ const Highlight = (): JSX.Element => {
                     <img
                         src="./box.svg"
                         alt="Placeholder Image"
-                        className="w-full h-60 rounded shadow"
+                        className="w-full h-60"
                     />
                 </div>
 
