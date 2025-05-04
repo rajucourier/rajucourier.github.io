@@ -15,9 +15,9 @@ export default function ShippingRatesTable() {
         </TableCell>
     );
   return (
-    <div className="w-full space-y-6">
+    <div className=" space-y-6">
       {/* Desktop view with horizontal scrolling */}
-      <div className="hidden md:block">
+      <div className="hidden md:block  bg-white p-4 rounded-md shadow-md mx-40 my-20">
         <div className="rounded-md border">
           <div className="w-full overflow-auto">
             <Table>
@@ -134,7 +134,7 @@ export default function ShippingRatesTable() {
       </div>
 
       {/* Mobile view with tabs and cards */}
-      <div className="md:hidden">
+      <div className="md:hidden bg-white p-4 rounded-md shadow-md mx-4 my-10">
         <Tabs defaultValue="usa">
           <TabsList className="grid w-full grid-cols-4">
             <TabsTrigger value="usa">USA</TabsTrigger>
