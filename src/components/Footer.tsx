@@ -7,7 +7,8 @@ const Footer = (): JSX.Element => {
       
       {/* <!-- Address Section --> */}
       <div>
-        <h3 className="text-lg font-semibold mb-2">Raju Courier</h3>
+        <img src="./logo.svg" alt="Logo" width={100} height={100} className="mb-1" />
+        <h3 className="text-lg font-semibold">RAJU COURIER - (Personal Shopper Service & International Courier)</h3>
         <p className="text-sm">
           281,282,MIG-280<br/>
           Road No.4,KPHB Phase 1<br/>
@@ -20,12 +21,13 @@ const Footer = (): JSX.Element => {
       {/* <!-- Social Links Section --> */}
       
   
-      {/* <!-- Made With Love Message --> */}
-      <div className="text-sm md:text-right">
+     
+    </div>
+     {/* <!-- Made With Love Message --> */}
+     <div className="text-sm md:text-center">
         <p>Made with ❤️ by Raju Courier</p>
         <p>&copy; 2025 All rights reserved.</p>
       </div>
-    </div>
       </footer>
       
     );
