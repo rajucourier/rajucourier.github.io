@@ -2,7 +2,7 @@ import { JSX } from "react";
 
 const Procedure = (): JSX.Element => {
     return (
-        <section className="w-full px-4 py-16 bg-gray-100">
+        <section className="w-full px-4 py-8 bg-gray-100">
             {/* <!-- Heading --> */}
             <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800">How does it work?</h2>
