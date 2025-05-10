@@ -7,7 +7,7 @@ const Highlight = (): JSX.Element => {
 
                 {/* <!-- Text Section --> */}
                 <div className="w-full md:w-1/2 mb-8 md:mb-0 ">
-                    <h2 className="text-3xl font-bold mb-4 text-white">SHOP FROM INDIA &</h2>
+                    <h2 className="text-3xl font-bold mb-4 text-white">SHOP ANYWHERE FROM INDIA &</h2>
                     <h2 className="text-3xl font-bold mb-4 text-white">SHIP WORLDWIDE</h2>
 
                     <div className="bg-[#F7AA18] shadow-lg rounded-lg p-6">

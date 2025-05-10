@@ -2,14 +2,14 @@ import { JSX } from "react";
 
 const Procedure = (): JSX.Element => {
     return (
-        <section className="w-full px-4 py-8 bg-gray-100">
+        <section className="w-full px-4 bg-gray-100 mt-5 ">
             {/* <!-- Heading --> */}
-            <div className="text-center mb-12">
+            <div className="text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800">How does it work?</h2>
             </div>
 
             {/* <!-- Cards Grid --> */}
-            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
 
                 {/* <!-- Card 1: Ship --> */}
                 <div className="bg-[#D7E7FF] p-6 rounded-lg shadow-md text-center">

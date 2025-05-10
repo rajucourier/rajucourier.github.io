@@ -17,7 +17,7 @@ export default function ShippingRatesTable() {
   return (
     <div className=" space-y-6">
       {/* Desktop view with horizontal scrolling */}
-      <div className="hidden md:block  bg-white p-4 rounded-md shadow-md mx-40 my-20">
+      <div className="hidden md:block  bg-white p-4 rounded-md shadow-md mx-40 mt-10">
         <div className="rounded-md border">
           <div className="w-full overflow-auto">
             <Table>

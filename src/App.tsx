@@ -5,10 +5,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
 import { JSX } from "react";
+import HeaderTip from "./components/HeaderTip";
 
 function App(): JSX.Element {
   return (
     <Router>
+       <HeaderTip/>
       <Navbar />
       <main>
         <Routes>
