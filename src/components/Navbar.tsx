@@ -50,8 +50,8 @@ const Navbar = (): JSX.Element => {
               <Menu className="h-6 w-6" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="bg-[#1D2951] text-white">
-            <div className="flex flex-col space-y-4 mt-8">
+          <SheetContent side="left" className="bg-[#1D2951] text-white">
+            <div className="flex flex-col space-y-4 m-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
