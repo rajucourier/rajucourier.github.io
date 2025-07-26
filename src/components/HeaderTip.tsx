@@ -29,14 +29,14 @@ export default function HeaderTip() {
                 </div>
 
                 {/* Contact Information */}
-                <div className="flex gap-6 text-sm">
+                {/* <div className="flex gap-6 text-sm">
                   <a href="/shipping-calculator" className="hover:text-red-500 font-semibold">
                        Shipping Caluclator
                     </a>
                     <a href="/personal-shopper" className="hover:text-red-500 font-semibold">
                        Personal Shopper
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     )
