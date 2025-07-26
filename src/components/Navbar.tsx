@@ -14,10 +14,6 @@ const Navbar = (): JSX.Element => {
 
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/shop-in-india", label: "How it Works?" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "/aboutus", label: "About us" },
-    { href:'/faq', label: "FAQs" },
   ];
 
   return (
